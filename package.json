@@ -4,7 +4,8 @@
     "build": "next build",
     "dev": "next dev --turbopack",
     "start": "next start",
-    "version": "next --version"
+    "version": "next --version",
+    "lint": "next lint"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
@@ -28,13 +29,16 @@
     "@types/bcrypt": "^5.0.2",
     "@types/node": "22.10.7",
     "@types/react": "19.0.7",
-    "@types/react-dom": "19.0.3"
+    "@types/react-dom": "19.0.3",
+    "eslint": "^9.28.0",
+    "eslint-config-next": "15.3.3"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
       "@vercel/speed-insights",
       "bcrypt",
-      "sharp"
+      "sharp",
+      "unrs-resolver"
     ]
   }
 }
